@@ -11,10 +11,10 @@ Setup and Run Locally
 To get this Next.js application up and running locally, follow the steps below:
 
 1. Clone the repository:
-bash
-Copy
-Edit
+
 git clone https://github.com/Vivek-257/orderfly-task.git
+
+After cloning change directory with
 cd orderfly-task
 2. Install dependencies:
 

@@ -46,15 +46,13 @@ app/layout.tsx: Layout component that wraps all pages and handles global styles.
 API Integrations
 The application integrates with the following external API:
 
-JSONPlaceholder API: A free fake online REST API for testing and prototyping.
-API Endpoints
+JSONPlaceholder API:
 Users: https://jsonplaceholder.typicode.com/users
 Posts: https://jsonplaceholder.typicode.com/posts?userId={userId}
 Testing the API Integrations
 You can test the API integration by visiting the user pages. For example:
 
 http://localhost:3000/user/1 will show the posts for the user with ID 1.
-Similarly, you can check other users by changing the ID in the URL.
 The posts should load dynamically based on the user selected.
 
 Additional Notes
